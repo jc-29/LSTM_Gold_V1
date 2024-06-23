@@ -8,7 +8,7 @@ from tensorflow import keras
 import numpy as np
 import matplotlib.pyplot as plt
 import ta_py as ta
-
+###
 current_date = date.today()
 
 daily_start_date = current_date - timedelta(days=367) # 1 year
